@@ -1,0 +1,24 @@
+# Lihat https://help.github.com/articles/ignoring-files/ untuk informasi lebih lanjut tentang mengabaikan file.
+
+# Dependensi
+/node_modules
+/.pnp
+.pnp.js
+
+# Folder build
+/build
+/dist
+
+# Log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File lingkungan lokal
+.env
+.env.local
+
+# File sistem operasi
+.DS_Store
